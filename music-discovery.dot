@@ -17,6 +17,7 @@ digraph "music-discovery" {
 	"Dialectrix" -> "Pegz" [color=green label="Priceless"];
 
 	"Dry" -> "Tal" [color=green label="Maintenant ou jamais"];
+	"Dry" -> "Vitaa" [color=green label="Le Temps qui passe"];
 
 	"Hilltop Hoods" -> "Chali 2na" [color=green label="Speaking in Tongues"];
 	"Hilltop Hoods" -> "Drapht" [color=green label="Brainbox"];
@@ -60,11 +61,16 @@ digraph "music-discovery" {
 
 	"Urthboy" -> "Jane Tyrrell" [color=green label="Shruggin'"];
 
+	"100 Greatest Rap Songs of the 90s" -> "Nas";
+	"100 Greatest Rap Songs of the 90s" -> "The Notorious B.I.G.";
+	"100 Greatest Rap Songs of the 90s" -> "Wu-Tang Clan";
+
 	// People
 	"Beck" -> "Memphis Bleek";
 	"Beck" -> "Michael Kiwanuka" [label="Cold Little Heart"];
 	"Marcel" -> "Anderson .Paak" [label="Malibu"];
 	"Michael" -> "100 Greatest Rap Songs of the 90s";
+	"Michael" -> "Dilated Peoples" [label="Worst Comes to Worst"];
 	"Michael" -> "Gift of Gab" [label="Freedom Form Flowing"];
 	"Michael" -> "R.A. The Rugged Man" [label="Freedom Form Flowing"];
 	"TJ" -> "A Tribe Called Red" [label="R.E.D."];
@@ -83,12 +89,15 @@ digraph "music-discovery" {
 	"GUP" -> "The Funkoars" [label="Where I Am" URL="https://www.youtube.com/watch?v=PjSwbupUZjI"];
 	"GUP" -> "Toteking y Shotta" [label="Voy A" URL="https://www.youtube.com/watch?v=a_tJCHdyD2E"];
 	"GUP" -> "Vents" [label="Rolling Balls" URL="https://www.youtube.com/watch?v=Sb3PGXWK6FY"];
-	"Rothagonithagie" -> "Illy" [label="Seen it all Before" URL="https://www.youtube.com/watch?v=pvO_z3amtiM"];
+	"Rothagonithagie" -> "Illy" [label="Heard it All" URL="https://www.youtube.com/watch?v=pvO_z3amtiM"];
 	"Rothagonithagie" -> "Urthboy" [label="Shruggin'" URL="https://www.youtube.com/watch?v=UZw4vS4qeo4"];
 	"Sam Ultima" -> "Mayra Andrade" [label="Tenpu ki Bai" URL="https://www.youtube.com/watch?v=tRKigcEUAp8"];
 	"Sam Ultima" -> "Oddisee" [label="Own Appeal" URL="https://www.youtube.com/watch?v=gThasSb2Lxg"];
+	"Team Farang" -> "A$AP Rocky" [label="Palace" URL="https://www.youtube.com/watch?v=atg5s65oAxg"];
 
 	// Games
+	"Beat Saber" -> "K/DA" [label="POP/STARS"];
+	"Music Catch" -> "Isaac Shepard" [label="Deep Joy"];
 	"Watch Dogs" -> "Pep Love" [label="Hip Hop My Friend"];
 
 	// Other Media
@@ -106,7 +115,9 @@ digraph "music-discovery" {
 			"GUP";
 			"3Run";
 			"Denester";
+			"Rothagonithagie";
 			"Sam Ultima";
+			"Team Farang";
 		}
 
 		subgraph "cluster_People" {
@@ -124,7 +135,9 @@ digraph "music-discovery" {
 
 		subgraph "cluster_Games" {
 			label="Games";
+			"Beat Saber";
 			"GTA:V";
+			"Music Catch";
 			"Watch Dogs";
 		}
 	}
