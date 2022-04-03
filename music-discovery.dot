@@ -1,0 +1,176 @@
+/**
+ * Song relationships represented by arrow colours
+ * Sample: Red
+ * Interpolation: Blue
+ * Remix: Pink
+ * Feature: Green
+ * Band Member / Affiliation: Brown
+ * Reference: Orange
+ */
+
+digraph "music-discovery" {
+	// Artists
+	"Bliss n Eso" -> "Phrase" [color=green label="Happy in My Hoodie"];
+
+	"Chali 2na" -> "Memphis Bleek" [color=orange label="Comin Thru"];
+
+	"Dialectrix" -> "Pegz" [color=green label="Priceless"];
+
+	"Dry" -> "Tal" [color=green label="Maintenant ou jamais"];
+
+	"Hilltop Hoods" -> "Chali 2na" [color=green label="Speaking in Tongues"];
+	"Hilltop Hoods" -> "Drapht" [color=green label="Brainbox"];
+	"Hilltop Hoods" -> "Horrorshow" [color=green label="The Underground"];
+	"Hilltop Hoods" -> "Jurrasic 5" [color=orange label="2016 Golden Era Records Cypher"];
+	"Hilltop Hoods" -> "K21" [color=brown];
+	"Hilltop Hoods" -> "Sia" [color=green label="I Love It"];
+	"Hilltop Hoods" -> "Slaine" [color=red label="99 Bottles"];
+	"Hilltop Hoods" -> "The Funkoars" [color=brown];
+
+	"Horrorshow" -> "Jane Tyrrell" [color=green label="In My Haze"];
+	"Horrorshow" -> "Spit Syndicate" [color=brown];
+
+	"Jurrasic 5" -> "Chali 2na" [color=brown];
+
+	"K21" -> "Keny Arkana" [color=red label="Echos"];
+
+	"Maitre Gims" -> "Dry" [color=green label="One Shot"];
+	"Maitre Gims" -> "Niska" [color=green label="Sapes comme jamais"];
+	"Maitre Gims" -> "Sia" [color=green label="Je te pardonne"];
+
+	"M-Phazes" -> "Dialectrix" [color=green label="The Facilitator"];
+	"M-Phazes" -> "Pegz" [color=green label="Blind Man"];
+	"M-Phazes" -> "Phrase" [color=green label="Music Box"];
+
+	"Niska" -> "Booba" [color=green label="M.L.C."];
+	"Niska" -> "Kalash" [color=green label="L'ennemi"];
+
+	"Pez" -> "Seth Sentry" [color=green label="Lazy"];
+
+	"Scribe" -> "Ladi6" [color=green label="So Nice"];
+
+	"Sexion Dassault" -> "Dry" [color=green label="Ceremonie"];
+	"Sexion Dassault" -> "Maitre Gims" [color=brown];
+	"Sexion Dassault" -> "Lefa" [color=brown];
+
+	"Sniper" -> "Sexion Dassault" [label="Blood Diamondz"];
+	"Sniper" -> "Tunisiano" [label=brown];
+
+	"Tunisiano" -> "Amel Bent" [color=green label="Solitude"];
+
+	"Urthboy" -> "Jane Tyrrell" [color=green label="Shruggin'"];
+
+	// People
+	"Beck" -> "Memphis Bleek";
+	"Beck" -> "Michael Kiwanuka" [label="Cold Little Heart"];
+	"Marcel" -> "Anderson .Paak" [label="Malibu"];
+	"Michael" -> "100 Greatest Rap Songs of the 90s";
+	"Michael" -> "Gift of Gab" [label="Freedom Form Flowing"];
+	"Michael" -> "R.A. The Rugged Man" [label="Freedom Form Flowing"];
+	"TJ" -> "A Tribe Called Red" [label="R.E.D."];
+	"TJ" -> "Talib Kweli" [label="New Leaders"];
+	"TJ" -> "Urthboy" [label="Someone Else's House"];
+
+	// Parkour Videos
+	"3Run" -> "The Game" [label="Ali Bomaye"];
+	"Denester" -> "Chali 2na" [label="Comin Thru" URL="https://www.youtube.com/watch?v=FdZsOb8US5g"];
+	"GUP" -> "Group 1 Crew" [label="I See You" URL="https://www.youtube.com/watch?v=FP29nf6HOJc"];
+	"GUP" -> "Slaine" [label="99 Bottles" URL="https://www.youtube.com/watch?v=FP29nf6HOJc"];
+	"GUP" -> "Sniper" [label="Sniper Processus"];
+	"GUP" -> "Stevie Stone" [label="Rain Dance" URL="https://www.youtube.com/watch?v=cNqVxVWG_L4"];
+	"GUP" -> "Tech N9ne" [label="Rain Dance" URL="https://www.youtube.com/watch?v=cNqVxVWG_L4"];
+	"GUP" -> "The Funkoars" [label="The Reason" URL="https://www.youtube.com/watch?v=nn3R23jly0s"];
+	"GUP" -> "The Funkoars" [label="Where I Am" URL="https://www.youtube.com/watch?v=PjSwbupUZjI"];
+	"GUP" -> "Toteking y Shotta" [label="Voy A" URL="https://www.youtube.com/watch?v=a_tJCHdyD2E"];
+	"GUP" -> "Vents" [label="Rolling Balls" URL="https://www.youtube.com/watch?v=Sb3PGXWK6FY"];
+	"Rothagonithagie" -> "Illy" [label="Seen it all Before" URL="https://www.youtube.com/watch?v=pvO_z3amtiM"];
+	"Rothagonithagie" -> "Urthboy" [label="Shruggin'" URL="https://www.youtube.com/watch?v=UZw4vS4qeo4"];
+	"Sam Ultima" -> "Mayra Andrade" [label="Tenpu ki Bai" URL="https://www.youtube.com/watch?v=tRKigcEUAp8"];
+	"Sam Ultima" -> "Oddisee" [label="Own Appeal" URL="https://www.youtube.com/watch?v=gThasSb2Lxg"];
+
+	// Games
+	"Watch Dogs" -> "Pep Love" [label="Hip Hop My Friend"];
+
+	// Other Media
+	"B13" -> "Iron Sy" [label="Resistant"];
+
+	// Unknown
+	"Unknown" -> "Richie Cunning" [label="Pure Imagination"]
+	"Unknown" -> "Bliss n Eso"
+
+	subgraph "cluster_Sources" {
+		label="Sources";
+
+		subgraph "cluster_Parkour Videos" {
+			label="Parkour Videos";
+			"GUP";
+			"3Run";
+			"Denester";
+			"Sam Ultima";
+		}
+
+		subgraph "cluster_People" {
+			label="People";
+			"Beck";
+			"Marcel";
+			"Michael";
+			"TJ";
+		}
+
+		subgraph "cluster_Media" {
+			label="Media";
+			"B13";
+		}
+
+		subgraph "cluster_Games" {
+			label="Games";
+			"GTA:V";
+			"Watch Dogs";
+		}
+	}
+
+	subgraph "cluster_Aus" {
+		label="Australian";
+		subgraph "cluster_Golden Era Records" {
+			label="Golden Era Records";
+			"Briggs";
+			"Hilltop Hoods";
+			"K21";
+			"The Funkoars" ;
+			"Vents";
+		}
+
+		"Bliss n Eso";
+		"Dialectrix";
+		"Drapht";
+		"Horrorshow";
+		"Illy";
+		"Jane Tyrrell";
+		"M-Phazes";
+		"Pegz";
+		"Pez";
+		"Phrase";
+		"Seth Sentry";
+		"Sia";
+		"Spit Syndicate";
+		"Urthboy";
+	}
+
+	subgraph "cluster_French" {
+		label="French";
+		"Amel Bent";
+		"Booba";
+		"Dry";
+		"Iron Sy";
+		"Kalash";
+		"Keny Arkana";
+		"Lefa";
+		"Maitre Gims";
+		"Niska";
+		"Sexion Dassault";
+		"Sniper";
+		"Tal";
+		"Tunisiano";
+		"Vitaa";
+	}
+}
