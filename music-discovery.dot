@@ -9,6 +9,7 @@
  */
 
 digraph "music-discovery" {
+	compound = true;
 	// Artists
 	"Bliss n Eso" -> "Phrase" [color=green label="Happy in My Hoodie"];
 
@@ -18,6 +19,7 @@ digraph "music-discovery" {
 
 	"DJ Sir Vere" -> "Pep Love" [color=pink label="Act Phenom"];
 	"DJ Sir Vere" -> "The Beatnuts" [color=pink label="Off The Books"];
+	"DJ Sir Vere" -> "The Beatnuts" [color=pink label="Watch Out Now"];
 	"DJ Sir Vere" -> "The Roots" [color=pink label="Adrenaline"];
 
 	"Dry" -> "Tal" [color=green label="Maintenant ou jamais"];
@@ -26,10 +28,10 @@ digraph "music-discovery" {
 	"Hilltop Hoods" -> "Chali 2na" [color=green label="Speaking in Tongues"];
 	"Hilltop Hoods" -> "Drapht" [color=green label="Brainbox"];
 	"Hilltop Hoods" -> "Horrorshow" [color=green label="The Underground"];
-	"Hilltop Hoods" -> "Jurrasic 5" [color=orange label="2016 Golden Era Records Cypher"];
+	"Hilltop Hoods" -> "Jurrasic 5" [color=orange label="2016 Golden Era Records Cypher" ltail="cluster_Golden Era Records"];
 	"Hilltop Hoods" -> "K21" [color=brown];
 	"Hilltop Hoods" -> "Sia" [color=green label="I Love It"];
-	"Hilltop Hoods" -> "Slaine" [color=red label="99 Bottles"];
+	"Hilltop Hoods" -> "Slaine" [color=red label="99 Bottles" ltail="cluster_Golden Era Records"];
 	"Hilltop Hoods" -> "The Funkoars" [color=brown];
 
 	"Horrorshow" -> "Jane Tyrrell" [color=green label="In My Haze"];
@@ -60,7 +62,7 @@ digraph "music-discovery" {
 	"Sexion Dassault" -> "Lefa" [color=brown];
 
 	"Sniper" -> "Sexion Dassault" [label="Blood Diamondz"];
-	"Sniper" -> "Tunisiano" [label=brown];
+	"Sniper" -> "Tunisiano" [color=brown];
 
 	"Tunisiano" -> "Amel Bent" [color=green label="Solitude"];
 
@@ -73,6 +75,7 @@ digraph "music-discovery" {
 	// People
 	"Beck" -> "Memphis Bleek";
 	"Beck" -> "Michael Kiwanuka" [label="Cold Little Heart"];
+	"Clinton" -> "Scribe" [label="The Crusader"];
 	"Marcel" -> "Anderson .Paak" [label="Malibu"];
 	"Michael" -> "100 Greatest Rap Songs of the 90s";
 	"Michael" -> "Dilated Peoples" [label="Worst Comes to Worst"];
@@ -103,6 +106,7 @@ digraph "music-discovery" {
 	// Games
 	"Beat Saber" -> "K/DA" [label="POP/STARS"];
 	"Music Catch" -> "Isaac Shepard" [label="Deep Joy"];
+	"Watch Dogs" -> "MGK" [label="Invincible"];
 	"Watch Dogs" -> "Pep Love" [label="Hip Hop My Friend"];
 
 	// Other Media
@@ -128,6 +132,7 @@ digraph "music-discovery" {
 		subgraph "cluster_People" {
 			label="People";
 			"Beck";
+			"Clinton";
 			"Marcel";
 			"Michael";
 			"TJ";
