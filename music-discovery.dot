@@ -69,6 +69,7 @@ digraph "music-discovery" {
 	"Urthboy" -> "Jane Tyrrell" [color=green label="Shruggin'"];
 
 	"100 Greatest Rap Songs of the 90s" -> "Nas";
+	"100 Greatest Rap Songs of the 90s" -> "Mobb Deep";
 	"100 Greatest Rap Songs of the 90s" -> "The Notorious B.I.G.";
 	"100 Greatest Rap Songs of the 90s" -> "Wu-Tang Clan";
 
