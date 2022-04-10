@@ -16,6 +16,10 @@ digraph "music-discovery" {
 
 	"Dialectrix" -> "Pegz" [color=green label="Priceless"];
 
+	"DJ Sir Vere" -> "Pep Love" [color=pink label="Act Phenom"];
+	"DJ Sir Vere" -> "The Beatnuts" [color=pink label="Off The Books"];
+	"DJ Sir Vere" -> "The Roots" [color=pink label="Adrenaline"];
+
 	"Dry" -> "Tal" [color=green label="Maintenant ou jamais"];
 	"Dry" -> "Vitaa" [color=green label="Le Temps qui passe"];
 
@@ -49,6 +53,7 @@ digraph "music-discovery" {
 	"Pez" -> "Seth Sentry" [color=green label="Lazy"];
 
 	"Scribe" -> "Ladi6" [color=green label="So Nice"];
+	"Scribe" -> "DJ Sir Vere" [color=orange label="Been This Way"];
 
 	"Sexion Dassault" -> "Dry" [color=green label="Ceremonie"];
 	"Sexion Dassault" -> "Maitre Gims" [color=brown];
