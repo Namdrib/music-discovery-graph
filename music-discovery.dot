@@ -11,9 +11,13 @@
 digraph "music-discovery" {
 	compound = true;
 	// Artists
+	"Amel Bent" -> "Generation Goldman" [color=brown label="Comme Toi"];
+
 	"Bliss n Eso" -> "Phrase" [color=green label="Happy in My Hoodie"];
 
 	"Chali 2na" -> "Memphis Bleek" [color=orange label="Comin Thru"];
+
+	"Corneille" -> "Generation Goldman" [color=brown label="Quand Tu Danses"]
 
 	"Dialectrix" -> "Pegz" [color=green label="Priceless"];
 
@@ -36,6 +40,8 @@ digraph "music-discovery" {
 
 	"Horrorshow" -> "Jane Tyrrell" [color=green label="In My Haze"];
 	"Horrorshow" -> "Spit Syndicate" [color=brown];
+
+	"Irma" -> "Generation Goldman" [color=brown label="Let's Talk About Love"]
 
 	"Jurrasic 5" -> "Chali 2na" [color=brown];
 
@@ -63,6 +69,8 @@ digraph "music-discovery" {
 
 	"Sniper" -> "Sexion Dassault" [label="Blood Diamondz"];
 	"Sniper" -> "Tunisiano" [color=brown];
+
+	"Tal" -> "Generation Goldman" [color=brown label="Pas Toi"];
 
 	"Tunisiano" -> "Amel Bent" [color=green label="Solitude"];
 	"Tunisiano" -> "Youssoupha" [color=green label="Ils Nous Condamnent"];
@@ -189,6 +197,7 @@ digraph "music-discovery" {
 		"Amel Bent";
 		"Booba";
 		"Dry";
+		"Generation Goldman";
 		"Iron Sy";
 		"Kalash";
 		"Keny Arkana";
