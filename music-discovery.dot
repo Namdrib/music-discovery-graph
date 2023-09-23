@@ -65,8 +65,12 @@ digraph "music-discovery" {
 	"Sniper" -> "Tunisiano" [color=brown];
 
 	"Tunisiano" -> "Amel Bent" [color=green label="Solitude"];
+	"Tunisiano" -> "Youssoupha" [color=green label="Ils Nous Condamnent"];
 
 	"Urthboy" -> "Jane Tyrrell" [color=green label="Shruggin'"];
+
+	"Youssoupha" -> "Corneille" [color=green label="Histoires Vraies"];
+	"Youssoupha" -> "Irma" [color=green label="I Know"];
 
 	"100 Greatest Rap Songs of the 90s" -> "Nas";
 	"100 Greatest Rap Songs of the 90s" -> "Mobb Deep";
@@ -196,5 +200,6 @@ digraph "music-discovery" {
 		"Tal";
 		"Tunisiano";
 		"Vitaa";
+		"Youssoupha";
 	}
 }
