@@ -11,7 +11,7 @@
 digraph "music-discovery" {
 	compound = true;
 	// Artists
-	"Amel Bent" -> "Generation Goldman" [color=brown label="Comme Toi"];
+	"Amel Bent" -> "Generation Goldman" [color=brown label="Comme toi"];
 
 	"Black Star" -> "Mos Def" [color=brown];
 
@@ -19,7 +19,7 @@ digraph "music-discovery" {
 
 	"Chali 2na" -> "Memphis Bleek" [color=orange label="Comin Thru"];
 
-	"Corneille" -> "Generation Goldman" [color=brown label="Quand Tu Danses"]
+	"Corneille" -> "Generation Goldman" [color=brown label="Quand tu danses"]
 
 	"Dialectrix" -> "Pegz" [color=green label="Priceless"];
 
@@ -29,7 +29,7 @@ digraph "music-discovery" {
 	"DJ Sir Vere" -> "The Roots" [color=pink label="Adrenaline"];
 
 	"Dry" -> "Tal" [color=green label="Maintenant ou jamais"];
-	"Dry" -> "Vitaa" [color=green label="Le Temps qui passe"];
+	"Dry" -> "Vitaa" [color=green label="Le temps qui passe"];
 
 	"Hilltop Hoods" -> "Chali 2na" [color=green label="Speaking in Tongues"];
 	"Hilltop Hoods" -> "Drapht" [color=green label="Brainbox"];
@@ -49,7 +49,7 @@ digraph "music-discovery" {
 
 	"K21" -> "Keny Arkana" [color=red label="Echos"];
 
-	"Maitre Gims" -> "Dry" [color=green label="One Shot"];
+	"Maitre Gims" -> "Dry" [color=green label="One shot"];
 	"Maitre Gims" -> "Niska" [color=green label="Sapes comme jamais"];
 	"Maitre Gims" -> "Sia" [color=green label="Je te pardonne"];
 
@@ -71,22 +71,22 @@ digraph "music-discovery" {
 	"Sexion Dassault" -> "Maitre Gims" [color=brown];
 	"Sexion Dassault" -> "Lefa" [color=brown];
 
-	"Sniper" -> "Sexion Dassault" [label="Blood Diamondz"];
+	"Sniper" -> "Sexion Dassault" [label="Blood diamondz"];
 	"Sniper" -> "Tunisiano" [color=brown];
 
-	"Tal" -> "Generation Goldman" [color=brown label="Pas Toi"];
+	"Tal" -> "Generation Goldman" [color=brown label="Pas toi"];
 
 	"Talib Kweli" -> "Black Star" [color=brown];
 
 	"The Game" -> "Anderson .Paak" [color=green label="Magnus Carlsen"];
 
 	"Tunisiano" -> "Amel Bent" [color=green label="Solitude"];
-	"Tunisiano" -> "Youssoupha" [color=green label="Ils Nous Condamnent"];
+	"Tunisiano" -> "Youssoupha" [color=green label="Ils nous condamnent"];
 	"Tunisiano" -> "Zaho" [color=green label="Citoyen du monde"];
 
 	"Urthboy" -> "Jane Tyrrell" [color=green label="Shruggin'"];
 
-	"Youssoupha" -> "Corneille" [color=green label="Histoires Vraies"];
+	"Youssoupha" -> "Corneille" [color=green label="Histoires vraies"];
 	"Youssoupha" -> "Irma" [color=green label="I Know"];
 
 	"Zaho" -> "Generation Goldman" [color=brown label="Encore un matin"];
