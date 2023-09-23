@@ -13,6 +13,8 @@ digraph "music-discovery" {
 	// Artists
 	"Amel Bent" -> "Generation Goldman" [color=brown label="Comme Toi"];
 
+	"Black Star" -> "Mos Def" [color=brown];
+
 	"Bliss n Eso" -> "Phrase" [color=green label="Happy in My Hoodie"];
 
 	"Chali 2na" -> "Memphis Bleek" [color=orange label="Comin Thru"];
@@ -58,6 +60,8 @@ digraph "music-discovery" {
 	"Niska" -> "Booba" [color=green label="M.L.C."];
 	"Niska" -> "Kalash" [color=green label="L'ennemi"];
 
+	"Pep Love" -> "Hieroglyphics" [color=brown];
+
 	"Pez" -> "Seth Sentry" [color=green label="Lazy"];
 
 	"Scribe" -> "Ladi6" [color=green label="So Nice"];
@@ -72,6 +76,10 @@ digraph "music-discovery" {
 
 	"Tal" -> "Generation Goldman" [color=brown label="Pas Toi"];
 
+	"Talib Kweli" -> "Black Star" [color=brown];
+
+	"The Game" -> "Anderson .Paak" [color=green label="Magnus Carlsen"];
+
 	"Tunisiano" -> "Amel Bent" [color=green label="Solitude"];
 	"Tunisiano" -> "Youssoupha" [color=green label="Ils Nous Condamnent"];
 
@@ -82,6 +90,7 @@ digraph "music-discovery" {
 
 	"100 Greatest Rap Songs of the 90s" -> "Nas";
 	"100 Greatest Rap Songs of the 90s" -> "Mobb Deep";
+	"100 Greatest Rap Songs of the 90s" -> "Mos Def";
 	"100 Greatest Rap Songs of the 90s" -> "The Notorious B.I.G.";
 	"100 Greatest Rap Songs of the 90s" -> "Wu-Tang Clan";
 
